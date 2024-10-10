@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   padding-left: 7rem;
+  padding-right: 7rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }

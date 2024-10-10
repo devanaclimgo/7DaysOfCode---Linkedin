@@ -1,0 +1,116 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  background-color: var(--cor-fundo);
+  border-radius: 15px;
+  width: 780px;
+  margin-left: 7rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.main-perfil img {
+  border-radius: 15px 15px 0 0;
+}
+
+.main-perfil::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  background-image: url('../img/home/foto-icon.png');
+  top: 200px;
+  left: 142px;
+}
+
+.main-perfil-desc {
+  display: flex;
+  padding-bottom: 1.2rem;
+  padding-left: 1.2rem;
+  padding-top: 3rem;
+  gap: 4rem;
+  color: var(--texto-primario);
+}
+
+.desc-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.desc-1 h1 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.desc-1 h3 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.desc-1 p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.desc-1 span {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--primario);
+}
+
+.desc-1 span:hover {
+  border-bottom: 2px solid var(--primario);
+  border-radius: 2px;
+}
+
+.desc-1 div {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.desc-1 div a {
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  border: 2px solid var(--primario);
+  border-radius: 25px;
+  font-weight: 500;
+}
+
+.desc-1 div a:first-child {
+  color: var(--cor-fundo);
+  background-color: var(--primario);
+}
+
+.desc-1 div a:last-child {
+  color: var(--primario);
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.desc-1 div a:hover {
+  background-color: #E0E0E0;
+  color: var(--primario);
+}
+
+.desc-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-left: 3rem;
+}
+
+.desc-2 p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
