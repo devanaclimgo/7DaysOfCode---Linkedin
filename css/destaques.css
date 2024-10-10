@@ -1,0 +1,65 @@
+.destaques {
+  background-color: var(--cor-fundo);
+  border-radius: 15px;
+  margin-left: 7rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.7rem;
+  padding: 1.2rem;
+}
+
+.destaques ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-top: 0.7rem;
+}
+
+.box-destaque {
+  border-radius: 8px;
+  border: 2px solid var(--texto-secundario);
+  color: var(--texto-secundario);
+}
+
+.box-destaque p:first-child, .box-destaque h4 {
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+
+.box-destaque p:first-child {
+  padding-top: 0.7rem;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.box-destaque h4 {
+  padding-bottom: 0.4rem;
+  color: var(--texto-primario);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.box-dest-inside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.2rem;
+}
+
+.box-dest-inside div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.box-dest-inside div img {
+  padding-left: 0.4rem;
+}
+
+.box-dest-inside p {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  padding-right: 0.7rem;
+}

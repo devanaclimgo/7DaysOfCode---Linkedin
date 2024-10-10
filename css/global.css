@@ -1,5 +1,6 @@
 @import url('./header.css');
 @import url('./main-perfil.css');
+@import url('./destaques.css');
 
 * {
   margin: 0;
@@ -16,6 +17,13 @@ body {
   --cor-input: #38434F;
   --texto-primario: #FFFFFF;
   --primario: #70B5F9;
-  --texto-secundario: #FFFFFF 60%;
+  --texto-secundario: #999999;
   --texto-escuro: #000000 75%;
+}
+
+.box-titulo {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--texto-primario);
 }
