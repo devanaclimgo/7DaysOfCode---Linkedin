@@ -38,6 +38,27 @@
   background-size: 17.49;
 }
 
-.header-menu {
+.header-menu ul {
   display: flex;
+}
+
+.header-menu li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-right: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+
+.header-menu li:last-child {
+  border-left: 1px solid var(--texto-primario);
+}
+
+.header-menu li a {
+  text-decoration: none;
+  color: var(--texto-primario);
+  font-size: 12px;
 }
