@@ -1,12 +1,3 @@
-.destaques {
-  background-color: var(--cor-fundo);
-  border-radius: 15px;
-  margin-left: 7rem;
-  margin-top: 1.5rem;
-  margin-bottom: 0.7rem;
-  padding: 1.2rem;
-}
-
 .destaques ul {
   display: flex;
   justify-content: space-between;
