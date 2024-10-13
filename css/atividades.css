@@ -1,0 +1,42 @@
+span {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.posts p:first-child {
+  color: var(--texto-secundario);
+}
+
+.exibir {
+  color: var(--texto-secundario);
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
+}
+
+.posts {
+  padding-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.post-text {
+  display: flex;
+  gap: 0.7rem;
+  color: var(--texto-primario);
+}
+
+.post-desc {
+  border-bottom: 2px solid var(--texto-secundario);
+  display: flex;
+  justify-content: space-between;
+  color: var(--texto-secundario);
+  padding-bottom: 0.5rem;
+}
+
+.post-desc div {
+  display: flex;
+  gap: 0.3rem;
+}
