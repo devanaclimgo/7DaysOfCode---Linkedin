@@ -1,0 +1,24 @@
+.idiomas li {
+  padding-bottom: 0.5rem;
+  color: var(--texto-primario);
+}
+
+.idiomas li:first-child {
+  border-bottom: 2px solid var(--texto-secundario);
+}
+
+.idiomas li h5 {
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
+.idiomas li:last-child {
+  padding-top: 0.5rem;
+}
+
+.idiomas li p {
+  font-size: 14px;
+  line-height: 30px;
+  color: var(--texto-secundario);
+}
