@@ -1,0 +1,30 @@
+.formacao div {
+  display: flex;
+}
+
+.box-titulo {
+  padding-bottom: 0.6rem;
+}
+
+.instituicao {
+  display: flex;
+  flex-direction: column;
+  color: var(--texto-primario);
+  padding-left: 0.8rem;
+}
+
+.instituicao h5 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.instituicao p {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.instituicao p:last-child {
+  color: var(--texto-secundario);
+}

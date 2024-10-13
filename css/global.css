@@ -2,6 +2,7 @@
 @import url('./main-perfil.css');
 @import url('./destaques.css');
 @import url('./atividades.css');
+@import url('./formacao.css');
 
 * {
   margin: 0;
