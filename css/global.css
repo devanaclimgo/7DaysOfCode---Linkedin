@@ -75,6 +75,7 @@ span {
     gap: 1.2rem;
     max-width: 780px;
     margin: auto;
+    margin-top: 1.5rem;
   }
   .side {
     display: flex;
