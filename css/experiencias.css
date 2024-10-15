@@ -1,0 +1,8 @@
+.experiencias {
+  color: var(--texto-primario);
+}
+
+.empresa {
+  display: flex;
+  gap: 0.7rem;
+}
