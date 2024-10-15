@@ -76,4 +76,9 @@ span {
     max-width: 780px;
     margin: auto;
   }
+  .side {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
 }
