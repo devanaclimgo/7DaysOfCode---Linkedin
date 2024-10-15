@@ -70,3 +70,14 @@
     display: none;
   }
 }
+
+@media (max-width: 970px) {
+  .header-bg {
+    padding-left: 2rem;
+    padding-right: 4rem;
+    width: 100%;
+  }
+  .header-menu li {
+    margin-right: 6rem;
+  }
+}
