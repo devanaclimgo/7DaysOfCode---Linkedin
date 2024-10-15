@@ -89,4 +89,14 @@ span {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
   }
+  .side {
+    gap: 1rem;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .side {
+    flex-direction: column;
+  }
 }
