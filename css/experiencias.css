@@ -24,3 +24,31 @@
   font-size: 14px;
   color: var(--texto-secundario);
 }
+
+.job {
+  padding-left: 1.5rem;
+}
+
+.cargo {
+  padding-top: 0.3rem;
+}
+
+.cargo h5 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.cargo div {
+  padding-bottom: 0.6rem;
+}
+
+.cargo div p {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.cargo div p:not(:first-child) {
+  color: var(--texto-secundario);
+}
