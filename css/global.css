@@ -83,3 +83,10 @@ span {
     gap: 0.5rem;
   }
 }
+
+@media (max-width: 860px) {
+  main {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+}
