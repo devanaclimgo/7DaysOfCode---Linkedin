@@ -14,6 +14,10 @@
   border-radius: 15px 15px 0 0;
 }
 
+.main-perfil {
+  position: relative;
+}
+
 .main-perfil::after {
   content: "";
   display: block;
@@ -21,8 +25,8 @@
   width: 160px;
   height: 160px;
   background-image: url('../img/home/foto-icon.png');
-  top: 200px;
-  left: 142px;
+  top: 100px;
+  left: 35px;
 }
 
 .main-perfil-desc {
