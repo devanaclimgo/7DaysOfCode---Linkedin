@@ -64,3 +64,9 @@
   color: var(--texto-primario);
   font-size: 12px;
 }
+
+@media (max-width: 1035px) {
+  .header-menu li:not(:first-child) {
+    display: none;
+  }
+}
