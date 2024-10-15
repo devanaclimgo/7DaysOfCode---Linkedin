@@ -5,4 +5,22 @@
 .empresa {
   display: flex;
   gap: 0.7rem;
+  padding-bottom: 0.5rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text h5 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.text p {
+  font-size: 14px;
+  color: var(--texto-secundario);
 }
