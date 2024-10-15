@@ -5,7 +5,6 @@
 .empresa {
   display: flex;
   gap: 0.7rem;
-  padding-bottom: 0.5rem;
 }
 
 .text {
@@ -38,6 +37,7 @@
   line-height: 20px;
   font-weight: 500;
   padding-left: 1.5rem;
+  padding-top: 0.6rem;
 }
 
 .cargo h5::before {
@@ -50,7 +50,6 @@
 }
 
 .cargo div {
-  padding-bottom: 0.6rem;
   border-left: 2px solid var(--texto-secundario);
   padding-left: 1.5rem;
 }
