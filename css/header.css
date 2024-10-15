@@ -56,6 +56,7 @@
 
 .header-menu li:last-child {
   border-left: 1px solid var(--texto-primario);
+  padding-left: 1rem;
 }
 
 .header-menu li a {
