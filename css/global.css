@@ -17,6 +17,10 @@ body {
   background-color: #000;
 }
 
+main {
+  display: flex;
+}
+
 li {
   list-style-type: none;
 }
